@@ -15,4 +15,11 @@ public class FibonacciFeatureConfig {
     public void setRestEnabled(boolean restEnabled) {
         this.restEnabled = restEnabled;
     }
+    private boolean webEnabled;
+    public boolean isWebEnabled() {
+        return webEnabled;
+    }
+    public void setWebEnabled(boolean webEnabled) {
+        this.webEnabled = webEnabled;
+    }
 }
